@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 34px;
+}
+
+header nav ul li a:link{
+    text-decoration: none;
+}
+
+main{
+    background-color: #F7F7F7;
+}
+
+div#chamada_cesta{
+    background-color: #F5CF9A;
+}
+
+footer{
+    background-color: #F8EFE4;
+}
