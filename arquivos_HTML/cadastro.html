@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./imagens/icon_ico.ico" type="image/x-icon">
-    <title>Login</title>
+    <title>Cadastre-se</title>
 </head>
 <body>
     <header>
         <button><a href="../index.html"><img src="../imagens/ícones/fechar_voltar.png" alt="voltar"></a></button>
     </header>
     <main>
-        <img src="../imagens/ilustrativas/pexels-photo-7342138.jpg" alt="frutas numa caixa">
+        <img src="../imagens/ilustrativas/pexels-photo-4258186.jpg" alt="legumes">
         <img src="../imagens/Logo_F1.png" alt="logo">
         <h3>Da terra à sua mesa, a comida saudável em um clique</h3>
         <div>
-            <h1>Olá!</h1>
-            <a href="../arquivos_HTML/cadastro.html">É novo por aqui? Crie uma conta!</a>
-            <p>Digite seu e-mail e senha para fazer login:</p>
+            <h2>BEM-VINDO!</h2>
+            <p>Insira deus dados e crie sua conta</p>
             <form action="">
+                <label for="">Nome:</label>
+                <input type="text" name="email" id="nome" required>
                 <label for="">Email:</label>
-                <input type="email" id="email" required>
+                <input type="email" name="email" id="email" required>
                 <label for="">Senha:</label>
-                <input type="password" id="senha" required>
-                <a href="./Esqueci_senha.html"><p>Esqueci minha senha</p></a>
-                <button type="submit">Login</button>
+                <input type="password" name="senha" id="senha" required>
+                <label for="">Confirme sua senha:</label>
+                <input type="password" name="senha" id="senha">
+                <button type="submit">CRIAR CONTA</button>
             </form>
         </div>
     </main>
