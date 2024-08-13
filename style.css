@@ -4,7 +4,7 @@
 
 /* Atributos gerais */
 *{
-    paddding: 0;
+    padding: 0;
     margin: 0;
     background-color: #F7F7F7;
     font-family: "Raleway", sans-serif;
@@ -46,10 +46,12 @@ header nav ul li a{
 #cestas_main{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .card_cesta h2{
     font-family: "Rasa", serif;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -61,23 +63,78 @@ header nav ul li a{
     text-transform: uppercase;
     color: #6C0345;
 }
+
+.card_cesta{
+    background-color: #FEFEFE;
+    height: 550px;
+    width: 367px;
+}
 /* Cores cards individuais */
 #card1{
     border: 1px solid #DC6B19;
+    border-radius: 15px;
 }
 
 #card2{
-    border: 1px solid #2FBEBB; 
+    border: 1px solid #2FBEBB;
+    border-radius: 15px;
 }
 
 #card3{
     border: 1px solid #91C948;
+    border-radius: 15px;
 }
 
 #card4{
     border: 1px solid #F092B1;
+    border-radius: 15px;
 }
 
 #card5{
     border: 1px solid #BA1B4B;
+    border-radius: 15px;
+}
+
+/* Benefícios */
+
+#beneficios_meio h2{
+    font-family: "Rasa", serif;
+    font-size: 58px;
+    font-weight: 600;
+    color: #6C0345;
+}
+
+#bene_lista {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#bene_lista p{
+    color: #FFF;
+    border-radius: 6px;
+    background-color: #E1A663;
+    padding: 19px 28px;
+}
+
+/* Chamada Cesta */
+
+#chamada_cesta{
+    background-color: #C05D14;
+}
+
+#chamada_cesta h2{
+    font-family: "Rasa", serif;
+    color: #6C0345;
+    font-size: 48px;
+}
+
+#chamada_cesta h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Rodapé */
+footer{
+    background-color: #F8EFE4;
 }
