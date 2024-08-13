@@ -1,35 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Atributos gerais */
 *{
+    paddding: 0;
     margin: 0;
+    background-color: #F7F7F7;
+    font-family: "Raleway", sans-serif;
 }
+
+/* Barra de navegação */
 
 header{
-    background-color: white;
-    display: flex;
-    padding: 15px;
+    background-color: #FEFEFE ;
     justify-content: space-between;
+    display: flex;
 }
 
-header nav ul{
+#links_cabecalho{
     display: flex;
+
 }
 
 header nav ul li{
+    text-decoration: none;
     list-style: none;
     margin-left: 34px;
 }
 
-header nav ul li a:link{
+header nav ul li a{
     text-decoration: none;
 }
 
-main{
-    background-color: #F7F7F7;
+/* Meio de página */
+
+/* Carrossel - img */
+#img_carrossel{
+    align-content: center;
+    border-radius: 15px;
+    padding: 40px;
 }
 
-div#chamada_cesta{
-    background-color: #F5CF9A;
+/* cards cestas */
+#cestas_main{
+    display: flex;
+    justify-content: space-between;
 }
 
-footer{
-    background-color: #F8EFE4;
+.card_cesta h2{
+    font-family: "Rasa", serif;
+    font-weight: 600;
+}
+
+.card_cesta li{
+    list-style: none;
+}
+
+.card_cesta h4{
+    text-transform: uppercase;
+    color: #6C0345;
+}
+/* Cores cards individuais */
+#card1{
+    border: 1px solid #DC6B19;
+}
+
+#card2{
+    border: 1px solid #2FBEBB; 
+}
+
+#card3{
+    border: 1px solid #91C948;
+}
+
+#card4{
+    border: 1px solid #F092B1;
+}
+
+#card5{
+    border: 1px solid #BA1B4B;
 }

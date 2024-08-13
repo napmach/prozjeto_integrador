@@ -8,10 +8,11 @@
     <title>Delícias do Campo</title>
 </head>
 <body>
+    <!-- Barra de navegação -->
     <header>
         <a href="./index.html" id="logo_header"><img src="./imagens/Logo_F1.png" alt="Imagem da Logo" width="205px" height="74"></a>
         <nav>
-            <ul>
+            <ul id="links_cabecalho">
                 <li>Início</li>
                 <li>Produtos</li>
                 <li><a href="./arquivos_HTML/planos.html">Planos</a></li>
@@ -27,10 +28,12 @@
             </ul>
         </nav>
     </header>
+    <!-- Meio de página -->
     <main>
-        <img src="./imagens/placeholders/carrossel.jpg" alt="carrossel de imagens">
-        <div>
-            <div id="produto_cesta">
+        <img src="./imagens/ilustrativas/princ_carrsol.png" alt="carrossel de imagens" id="img_carrossel">
+        <!-- Cards produtos -->
+        <div id="cestas_main">
+            <div class="card_cesta" id="card1">
                 <h2>Tropicália</h2>
                 <h4>pequena</h4>
                 <ul>
@@ -40,7 +43,7 @@
                     <li id="preço">Preço 70,00</li>
                 </ul>
             </div>
-            <div id="produto_cesta">
+            <div class="card_cesta" id="card2">
                 <h2>Malês</h2>
                 <h4>pequena</h4>
                 <ul>
@@ -50,7 +53,7 @@
                     <li id="preço">Preço = R$ 75,78</li>
                 </ul>
             </div>
-            <div id="produto_cesta">
+            <div class="card_cesta" id="card3">
                 <h2>Beckman</h2>
                 <h4>médio</h4>
                 <ul>
@@ -60,7 +63,7 @@
                     <li id="preço">Preço R$ 119,50</li>
                 </ul>
             </div>
-            <div id="produto_cesta">
+            <div class="card_cesta" id="card4">
                 <h2>Sabinada</h2>
                 <h4>grande</h4>
                 <ul>
@@ -70,7 +73,7 @@
                     <li id="preço">Preço R$ 158,00</li>
                 </ul>
             </div>
-            <div id="produto_cesta">
+            <div class="card_cesta" id="card5">
                 <h2>Balaiada</h2>
                 <h4>enorme</h4>
                 <ul>
@@ -81,6 +84,7 @@
                 </ul>
             </div>
         </div>
+        <!-- Meio de página | Benefícios -->
         <section>
             <h2>Benefícios</h2>
             <div>
@@ -92,6 +96,7 @@
                 <p>Pagamento fácil</p>
             </div>
         </section>
+        <!-- Fim main | Montar cesta própria -->
         <div id="chamada_cesta">
             <h2>FAÇA SUA FEIRA, MONTE SUA CESTA</h2>
             <h4>Adicione à sua cesta os produtos para deixar sua refeição mais completa e aproveite nossos descontos!</h4>
@@ -101,7 +106,9 @@
             <button> <a href="./arquivos_HTML/monte_cesta.html">MONTAR AGORA</a></button>
         </div>
     </main>
+    <!-- Rodapé -->
     <footer>
+        <!-- Logo e slogan + redes -->
         <img src="./imagens/Logo_F1.png" alt="imagem logo" width="364" height="130">
         <h5>Da terra à sua mesa, a comida saudável em um clique</h5>
         <div>
@@ -112,9 +119,11 @@
                 <a href="http://instagram.com"><li>Instagram</li></a>
             </ul>
         </div>
+        <!-- Seções de navegação -->
         <section>
             <div>
                 <ul>
+                    <!-- Navegação Institucional -->
                     <h4>Institucional</h4>
                     <li>Reclame aqui</li>
                     <li>Onde estamos</li>
@@ -124,6 +133,7 @@
             </div>
             <div>
                 <ul>
+                    <!-- Navegação Ajuda -->
                     <h4>Ajuda</h4>
                     <li>Entrega</li>
                     <li>Fale conosco</li></a>
@@ -133,6 +143,7 @@
             </div>
             <div>
                 <ul>
+                    <!-- Sobre a loja -->
                     <h4>Sobre a Loja</h4>
                     <p>Somos um delivery de cestas de frutas. Criamos um jeito diferente de oferecer o frescor das feiras com a praticidade dos grandes mercados. Levamos até sua mesa o que a natureza tem de melhor, produtos frescos e orgânicos, conectando produtor e consumidor de forma prática.</p>
                 </ul>
