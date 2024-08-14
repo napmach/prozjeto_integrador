@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Atributos gerais */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F7F7F7;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Botão voltar */
+#btn_voltar{
+}
+
+#ilustra1{
+    border-radius: 21px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Logo e slogan */
+#logo_e_slogan{
+    color: #C05D14;
+    font-weight: bold;
+}
+
+/* Partes form login */
+
+/* Chamada login */
+div h1{
+    font-family: "Rasa", serif;
+    font-size: 54px;
+}
+
+#cadastro{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.corRosa{
+    color: #BA1B4B;
+}
+
+#instrucao{
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+/* Form input */
+
+#form_input{
+    -ms-flex-direction: column;
+    /* NÃO FUNCIONA AAAAAAAAAAA */
+}
+
+.label_form{
+    color: #938C8C;
+    font-weight: 500;
+}
+
+#email{
+}
+
+#senha{
+    width: 500;
+    height: 75;
+}
+
+#esquecido{
+    text-decoration: none;
+    color: #676666;
+    font-weight: 600;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 23;
+    width: 508px;
+    height: 75px;
+    border: 1px solid #DBDBDB;
+    border-radius: 11px;
+}

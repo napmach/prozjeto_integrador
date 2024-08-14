@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagens/icon_ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../arquivos_CSS/plogin.css">
     <title>Login</title>
 </head>
 <body>
-    <header>
-        <button><a href="../index.html"><img src="../imagens/ícones/fechar_voltar.png" alt="voltar"></a></button>
+    <!-- Cabeçalho apenas com botõ de voltar -->
+    <header> 
+        <button><a href="../index.html"><img src="../imagens/ícones/fechar_voltar.png" alt="voltar" width="20" height="20" id="btn_voltar"></a></button>
     </header>
+    <!-- Meio de página -->
     <main>
-        <img src="../imagens/ilustrativas/pexels-photo-7342138.jpg" alt="frutas numa caixa">
-        <img src="../imagens/Logo_F1.png" alt="logo">
-        <h3>Da terra à sua mesa, a comida saudável em um clique</h3>
+        <img src="../imagens/ilustrativas/pexels-photo-7342138.jpg" alt="frutas numa caixa" width="540" height="742" id="ilustra1">
+        <!-- Forms login -->
         <div>
+            <div id="logo_e_slogan">
+                <img src="../imagens/Logo_F1.png" alt="logo" width="400" height="140">
+                <h3 id="slogan">Da terra à sua mesa, a comida saudável em um clique</h3>
+            </div>
+            <!-- chamada login -->
             <h1>Olá!</h1>
-            <a href="../arquivos_HTML/cadastro.html">É novo por aqui? Crie uma conta!</a>
-            <p>Digite seu e-mail e senha para fazer login:</p>
-            <form action="">
-                <label for="">Email:</label>
-                <input type="email" id="email" required>
-                <label for="">Senha:</label>
+            <a href="../arquivos_HTML/cadastro.html" id="cadastro">É novo por aqui? <span class="cor">Crie uma conta!</span> </a>
+            <p id="instrucao">Digite seu e-mail e senha para fazer login:</p>
+            <!-- Form input -->
+            <form action="" id="form_input">
+                <label for="" class="label_form">Email:</label>
+                <input type="email" id="email"  required>
+                <label for="" class="label_form">Senha:</label>
                 <input type="password" id="senha" required>
-                <a href="./Esqueci_senha.html"><p>Esqueci minha senha</p></a>
+                <a href="./Esqueci_senha.html" id="esquecido"><p>Esqueci minha senha</p></a>
                 <button type="submit">Login</button>
             </form>
         </div>
     </main>
+    <!-- Link para outras páginas -->
     <footer>
         <a href="../arquivos_HTML/ajuda.html">Ajuda</a>
         <a href="../arquivos_HTML/politicas_privacidade.html">Políticas de privacidade</a>
