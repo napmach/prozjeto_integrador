@@ -19,18 +19,20 @@
                 <li>Saúde</li>
                 <li>Ajuda</li>
             </ul>
-            <form action="">
-                <input type="text" name="pesquisa" id="pesquisa">
-            </form>
-            <ul>
-                <button><a href="./arquivos_HTML/login.html"><img src="./imagens/ícones/user.png" alt="ícone de usuário" width="54px" height="48px"></a></button>
-                <button><a href="./arquivos_HTML/carrinho.html"><img src="./imagens/ícones/basket_shopping_icon_199506.png" alt="ícone de cesta" width="54px" height="48px"></a></button>
-            </ul>
         </nav>
+        <form action="">
+            <input type="text" name="pesquisa" id="pesquisa">
+        </form>
+        <ul>
+            <button><a href="./arquivos_HTML/login.html"><img src="./imagens/ícones/user.png" alt="ícone de usuário" width="54px" height="48px"></a></button>
+            <button><a href="./arquivos_HTML/carrinho.html"><img src="./imagens/ícones/basket_shopping_icon_199506.png" alt="ícone de cesta" width="54px" height="48px"></a></button>
+        </ul>
     </header>
     <!-- Meio de página -->
     <main>
-        <img src="./imagens/ilustrativas/princ_carrsol.png" alt="carrossel de imagens" id="img_carrossel">
+        <div id="img_carrossel">
+            <img src="./imagens/ilustrativas/princ_carrsol.png" alt="carrossel de imagens" >
+        </div>
         <!-- Cards produtos -->
         <div id="cestas_main">
             <div class="card_cesta" id="card1">
@@ -89,7 +91,7 @@
             <h2>Benefícios!</h2>
             <div id="bene_lista">
                 <!--ver ser dá pra pôr img na tag p-->
-                <p>Frete grátis<p>
+                <p><span><img src="./imagens/ícones/basket_shopping_icon_199506.png" alt=""></span>Frete grátis</p>
                 <p>Entrega rápida</p>
                 <p>Retire seu pedido</p>
                 <p>Produtos orgânicos</p>
@@ -102,9 +104,6 @@
         <div id="chamada_cesta">
             <h2>FAÇA SUA FEIRA, MONTE SUA CESTA</h2>
             <h4>Adicione à sua cesta os produtos para deixar sua refeição mais completa e aproveite nossos descontos!</h4>
-            <div>
-                <!--Colocar imagens como botões?-->
-            </div>
             <button> <a href="./arquivos_HTML/monte_cesta.html">MONTAR AGORA</a></button>
         </div>
     </main>
