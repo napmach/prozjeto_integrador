@@ -236,17 +236,24 @@ header nav ul li a:visited{
 
 /* Chamada Cesta */
 
-/* #alimento1{
+#alimentos_chamada{
+    /* display: flex; */
+}
+
+.box_ali_chamada{
     background-color: #fff;
     max-width: 150px;
-    min-width: 150px;
-}  */
+    height: 150px;
+    border-radius: 12px;
+}  
 
 #chamada_cesta{
     background-color: #C05D14;
     /* aumentar a cor pros lados */
     min-width: 100%;
     padding: 36px;
+    display: flex;
+    flex-direction: column;
 }
 
 #chamada_cesta h2{
@@ -262,6 +269,8 @@ header nav ul li a:visited{
     text-align: center;
 }
 
+/* Ajuda aqui */
+
 #btn_monte_agora{
     text-decoration: none;
     text-transform: uppercase;
@@ -271,6 +280,7 @@ header nav ul li a:visited{
     padding: 15px 47px;
     border-radius: 12px;
     border: none;
+    max-width: 30;
 }
 
 #btn_monte_agora a{
@@ -285,20 +295,90 @@ header nav ul li a:visited{
 /* Rodapé */
 footer{
     background-color: #F8EFE4;
-    display: flex;
+    color: #414141;
 }
 
-#footer_esq{
-    width: 30%;
+footer a:visited{
+    color: #414141;
+}
+
+#footer_menosline{
+    display: flex;
+    padding: 45px;
 }
 
 #footer_slogan{
     font-family: "Radio Canada", sans-serif;
     font-weight: 500;
     color: #C05D14;
+    font-size: 13px;
+}
+
+#footer_esq{
+    width: 60%;
+}
+
+.redes_sociais{
+    display: flex;
+}
+
+.redes_icons{
+    width: 30px;
+    height: 30px;
 }
 
 #footer_dir{
     display: flex;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.div_ft_dir{
+    display: flex;
+    width: 33%;
+}
+
+.div_ft_dir h4{
+    font-family: "Rasa", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.div_ft_dir li{
+    margin-bottom: 10px;
+}
+
+#ft_institucional{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#ft_ajuda{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#ft_sobre{
+    font-size: 17px;
+}
+
+#ft_sobre p{
+    text-align: justify;
+}
+
+.links_footer{
+    text-decoration: none;
+    
+}
+
+#footline{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 1%;
 }
