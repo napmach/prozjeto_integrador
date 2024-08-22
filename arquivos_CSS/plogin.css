@@ -135,3 +135,21 @@ form input, form textarea{
     font-size: 20px;
     background-color: #F4F4F4;
 }
+
+#btn_login{
+    text-transform: uppercase;
+    color: #ffff;
+    border: none;
+    border-radius: 18px;
+    background-color: #E1A663;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.linksfooter{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+

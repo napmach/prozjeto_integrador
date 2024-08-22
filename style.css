@@ -215,23 +215,36 @@ header nav ul li a:visited{
     margin-top: 30px;
 }
 
+.cada_bene{
+    max-width: 19.5%;
+    border-radius: 6px;
+    background-color: #E1A663;
+    padding: 10px 18px;
+    display: flex;
+}
+
 #bene_lista {
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
 
+.icon_bene{
+    min-width: 25%;
+    margin-right: 15px;
+}
+
 .texto_menor_bene{
     font-size: 15px;
+
 }
 
 #bene_lista p{
     color: #FFF;
-    border-radius: 6px;
-    background-color: #E1A663;
-    padding: 19px 28px;
+    text-align: center;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
+    
 }
 
 /* Chamada Cesta */
