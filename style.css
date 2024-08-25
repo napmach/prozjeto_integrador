@@ -173,12 +173,31 @@ header nav ul li a:visited{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    background-color:#2FBEBB;
     color: #fff;
     padding: 14px 47px ;
+    border: none;
     border-radius: 12px;
 }
 
+#btn_card1{
+    background-color: #DC6B19
+}
+
+#btn_card2{
+    background-color: #2FBEBB;
+}
+
+#btn_card3{
+    background-color: #91C948;
+}
+
+#btn_card4{
+    background-color: #F092B1;
+}
+
+#btn_card5{
+    background-color: #BA1B4B;
+}
 /* Cores cards individuais */
 #card1{
     border: 1px solid #DC6B19;
@@ -231,7 +250,7 @@ header nav ul li a:visited{
 
 .icon_bene{
     min-width: 25%;
-    margin-right: 15px;
+    margin-right: 0px;
 }
 
 .texto_menor_bene{
@@ -248,18 +267,6 @@ header nav ul li a:visited{
 }
 
 /* Chamada Cesta */
-
-#alimentos_chamada{
-     display: flex;
-     width: 100%;
-}
-
-.box_ali_chamada{
-    background-color: #fff;
-    width: 150px;
-    height: 150px;
-    border-radius: 12px;
-}  
 
 #chamada_cesta{
     background-color: #C05D14;
@@ -283,6 +290,63 @@ header nav ul li a:visited{
     text-align: center;
 }
 
+#alimentos_chamada{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.box_ali_chamada{
+   background-color: #fff;
+   width: 150px;
+   height: 150px;
+   border-radius: 12px;
+}  
+
+/* cada img/produto */
+#alimento1{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./imagens/box_chamada_index/alface.png');
+}
+
+#alimento2{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./imagens/box_chamada_index/bananas.png')
+}
+
+#alimento3{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./imagens/box_chamada_index/cenouras.png');
+}
+
+#alimento4{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./imagens/box_chamada_index/limao_siciliano.png');
+}
+
+#alimento5{
+    background-position: center;
+    background-size: cover;
+    background-image:url('./imagens/box_chamada_index/macas.png');
+}
+
+#alimento6{
+    background-position: center;
+    background-size: cover;
+    background-image:url('./imagens/box_chamada_index/melancia.webp');
+}
+
+#alimento7{
+    background-position: center;
+    background-size: cover;
+    background-image:url('./imagens/box_chamada_index/salsinha.png');
+}
+
 /* Ajuda aqui */
 
 #btn_monte_agora{
@@ -294,7 +358,7 @@ header nav ul li a:visited{
     padding: 15px 47px;
     border-radius: 12px;
     border: none;
-    width: 30px;
+    width: 80px;
 }
 
 #btn_monte_agora a{
