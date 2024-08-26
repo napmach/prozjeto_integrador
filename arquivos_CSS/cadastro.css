@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Atributos gerais */
+*{
+    padding: 0;
+    margin: 10;
+    background-color: #F7F7F7;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Botão voltar */
+#btn_voltar{
+}
+
+#ilustra1{
+    border-radius: 21px;
+    display: flex;
+    align-items: flex-start;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+/* Logo e slogan */
+#logo_e_slogan{
+    color: #C05D14;
+    font-weight: bold;
+}
+
+* Partes form Cadastro */
+
+/* Chamada Cadastro */
+div h1{
+    font-family: "Rasa", serif;
+    font-size: 54px;
+}
+* Form input */
+
+#form_input{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
