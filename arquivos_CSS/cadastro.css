@@ -3,46 +3,128 @@
 
 /* Atributos gerais */
 *{
-    padding: 0;
-    margin: 10;
+    padding: 2px;
+    margin: 0;
     background-color: #F7F7F7;
+    box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-}
-
-/* Botão voltar */
-#btn_voltar{
-}
-
-#ilustra1{
-    border-radius: 21px;
-    display: flex;
-    align-items: flex-start;
 }
 
 main{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    /* justify-content: space-between; */
+    max-width: 100vw;
+    max-height: 90vh;
 }
+
+#bloco1, #bloco2{
+    width: 50%;
+}
+
+#bloco1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 30px;
+    margin-left: 30px;
+}
+
 /* Logo e slogan */
 #logo_e_slogan{
     color: #C05D14;
     font-weight: bold;
+    width: 100%;
 }
 
-* Partes form Cadastro */
+#logo_e_slogan img{
+    width: 50%;
+}
+/* DIV PASSA SE AUMENTAR O TAMANHO */
 
 /* Chamada Cadastro */
-div h1{
-    font-family: "Rasa", serif;
-    font-size: 54px;
+#bloco1 h2{
+    margin-top: 20px;
+    font-family: "Rasa", sans-serif;
+    font-size: 42px;
 }
-* Form input */
 
-#form_input{
-    flex-direction: column;
+#bloco1 h3{
+    font-size: 12px;
+}
+#bloco1 p{
+    font-weight: 600;
+}
+
+/* Form input */
+form{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+/* Partes form Cadastro */
+.label_input{
+    color: #938c8c;
+    font-weight: 500;
+    font-size: small;
+}
 
-    
+#form_inputs span{
+    display: flex;
+    justify-content: center;
+    /* NÃO FUNCIONOU DE NOVO AAAAAAAAAAAA */
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 10px 10px;
+    width: 500px;
+    height: 40px;
+    background-color: #F4f4f4;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+
+#btn_criar{
+    color: #ffff;
+    background-color: #e1a663;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#bloco2{
+    border-radius: 21px;
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+#img_bg_cadastro{
+    background-image: url('../imagens/ilustrativas/pexels-photo-4258186.jpg');
+    width: 90%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+    margin-top: 0.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 15px;
+}
