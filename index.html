@@ -34,9 +34,33 @@
     <!-- Meio de página -->
     <main>
         <div id="margem_ptudo">
-            <div id="img_carrossel">
-                <img src="./imagens/ilustrativas/princ_carrsol.png" alt="carrossel de imagens" width="1024" height="370">
+            <div class="position_slider">
+                <div class="slider">
+                    <div class="list">
+                        <div class="item" id="img_carrossel1">
+                            <img src="./imagens/ilustrativas/princ_carrsol.png" alt="carrossel de imagens" width="1024" height="370">
+                        </div>
+                        <div class="item" id="img_carrossel2">
+                            <img src="./imagens/ilustrativas/pic2.png" alt="carrosel imagem 2" width="1024" height="370">
+                        </div>
+                        <div class="item" id="imagem_carrossel3">
+                            <img src="./imagens/ilustrativas/pic3.png" alt="carrossel imagem3" width="1024" height="370">
+                        </div>
+                    </div>
+                    <!-- Botões p passar slider -->
+                    <div class="buttons">
+                        <button id="prev"><</button>
+                        <button id="next">></button>
+                    </div>
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+                </div>
+               
             </div>
+
             <!-- Cards produtos -->
             <div id="cestas_main">
                 <div class="card_cesta" id="card1">
