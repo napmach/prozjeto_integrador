@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
+    <link rel="stylesheet" href="../arquivos_CSS/cadastro.css">
 </head>
 <body>
     <header>
-        <button><a href="../index.html"><img src="../imagens/ícones/fechar_voltar.png" alt="voltar"></a></button>
+        <a href="../index.html"><img src="../imagens/ícones/fechar_voltar.png" alt="voltar" width="20" height="20"></a>
     </header>
     <main>
-        <img src="../imagens/ilustrativas/pexels-photo-4258186.jpg" alt="legumes">
-        <img src="../imagens/Logo_F1.png" alt="logo">
-        <h3>Da terra à sua mesa, a comida saudável em um clique</h3>
-        <div>
-            <h2>BEM-VINDO!</h2>
-            <p>Insira deus dados e crie sua conta</p>
-            <form action="">
-                <label for="">Nome:</label>
-                <input type="text" name="email" id="nome" required>
-                <label for="">Email:</label>
-                <input type="email" name="email" id="email" required>
-                <label for="">Senha:</label>
-                <input type="password" name="senha" id="senha" required>
-                <label for="">Confirme sua senha:</label>
-                <input type="password" name="senha" id="senha">
-                <button type="submit">CRIAR CONTA</button>
-            </form>
+        <div id="bloco1">
+            <div id="logo_e_slogan">
+                <img src="../imagens/Logo_F1.png" alt="logo">
+                <h3>Da terra à sua mesa, a comida saudável em um clique</h3>
+            </div>
+            <div>
+                <h2>BEM-VINDO!</h2> 
+                <p>Insira deus dados e crie sua conta</p>
+                <br>
+                <form action="" id="form_inputs">
+                    <label for="" class="label_input">Nome:</label>
+                    <input type="text" name="email" id="nome" required>
+                    <label for="" class="label_input">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="" class="label_input">Senha:</label>
+                    <input type="password" name="senha" id="senha" required>
+                    <label for="" class="label_input">Confirme sua senha:</label>
+                    <input type="password" name="senha" id="senha">
+                    <span><button type="submit" id="btn_criar">CRIAR CONTA</button></span>
+                </form>
+            </div>
+        </div>
+        <div id="bloco2">
+            <!-- <img src="../imagens/ilustrativas/pexels-photo-4258186.jpg" alt="legumes"> -->
+             <div id="img_bg_cadastro"></div>
         </div>
     </main>
     <footer>
-        <a href="../arquivos_HTML/ajuda.html">Ajuda</a>
+        <a href="../arquivos_HTML/ajuda.html">Ajuda |</a>
         <a href="../arquivos_HTML/politicas_privacidade.html">Políticas de privacidade</a>
     </footer>
 </body>
