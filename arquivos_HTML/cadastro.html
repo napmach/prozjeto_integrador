@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="../arquivos_CSS/cadastro.css">
+    <link rel="stylesheet" href="../arquivos_CSS/cadastro.css"> 
+    <script src="../Arquivos_JS/cadastro.js" defer></script>
 </head>
 <body>
     <header>
@@ -21,15 +22,19 @@
                 <p>Insira deus dados e crie sua conta</p>
                 <br>
                 <form action="" id="form_inputs">
-                    <label for="" class="label_input">Nome:</label>
-                    <input type="text" name="email" id="nome" required>
+                    <label for="nome" class="label_input">Nome:</label>
+                    <input type="text" name="email" id="nome" required placeholder=" João Silva">
+                    <label for="CPF" class="label_input"> CPF</label>
+                    <input type="text" name="CPF"  id="CPF" required placeholder="111.111.111-11">
                     <label for="" class="label_input">Email:</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" required placeholder=" nome@email.com">
                     <label for="" class="label_input">Senha:</label>
-                    <input type="password" name="senha" id="senha" required>
+                    <input type="password" name="senha" id="senha" required placeholder=" digite aqui sua senha">
                     <label for="" class="label_input">Confirme sua senha:</label>
                     <input type="password" name="senha" id="senha">
+                 
                     <span><button type="submit" id="btn_criar">CRIAR CONTA</button></span>
+                
                 </form>
             </div>
         </div>

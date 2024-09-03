@@ -128,3 +128,16 @@ footer a{
     font-weight: 600;
     font-size: 15px;
 }
+/*Estilos dinâmicos */
+input.erro{ 
+    background-color: salmon;
+    color: red;
+    border: 1px solid red;
+
+}
+input.correto{ 
+    background-color: rgb(152, 248, 165);
+    color: green;
+    border: 1px solid green;
+    
+}
