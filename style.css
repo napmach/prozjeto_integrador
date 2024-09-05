@@ -265,7 +265,7 @@ header nav ul li a:visited{
     padding: 14px 47px ;
     border: none;
     border-radius: 12px;
-}
+} */
 
 #btn_card1{
     background-color: #DC6B19
@@ -286,7 +286,9 @@ header nav ul li a:visited{
 #btn_card5{
     background-color: #BA1B4B;
 }
-/* Cores cards individuais 
+
+/* Cores cards individuais  */
+
 #card1{
     border: 1px solid #DC6B19;
     border-radius: 15px;
@@ -310,15 +312,15 @@ header nav ul li a:visited{
 #card5{
     border: 1px solid #BA1B4B;
     border-radius: 15px;
-} */
+} 
 
-#cards_mid_position{
+/* #cards_mid_position{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh; */
+    min-height: 100vh; 
     max-height: 20%;
-}
+} */
 
 
 .card_wrapper{
@@ -334,6 +336,7 @@ header nav ul li a:visited{
 
 .card_list .card_item .card_link{
     width: 300px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -370,7 +373,7 @@ header nav ul li a:visited{
 
 .card_list .card_link .card_button{
     font-weight: 600;
-    color: #6C0345;
+    color: #FFFF;
     padding: 14px 47px ;
     border: none;
     border-radius: 12px;
