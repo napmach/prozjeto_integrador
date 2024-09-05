@@ -1,12 +1,15 @@
 // Voltar com o ESC 
 //NÃO FUNCIONA 😭😭
+ 
 // let voltar = document.querySelector("link_p_voltar");
 
-// document.addEventListener("keydown",(e)=> {
-//     if(e.code == "Escape") {
-//         voltar.click();
-//     }
-// })
+document.addEventListener("keydown",(e)=> {
+    if(e.code == "Escape") {        
+        history.back();
+    }
+})
+
+// PESQUISAR STORY.BACK VOLTAR PÁGINA
 
 // //Submit com aviso + não apagar form
 
