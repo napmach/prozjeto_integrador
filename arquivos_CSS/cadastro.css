@@ -130,9 +130,9 @@ footer a{
 }
 /*Estilos dinâmicos */
 input.erro{ 
-    background-color: salmon;
-    color: red;
-    border: 1px solid red;
+    background-color: rgb(252, 185, 178);
+    color: rgb(238, 12, 12);
+    border: 1px solid rgb(248, 40, 40);
 
 }
 input.correto{ 
