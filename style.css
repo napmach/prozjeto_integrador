@@ -71,7 +71,6 @@ header nav ul li a:visited{
     background-color: #F4F4F4;
 }
 
-
 #pesquisa{
     border:none;
     width: 100%;
@@ -84,7 +83,7 @@ header nav ul li a:visited{
 
 /* Meio de página */
 
-/* Carrossel - img */
+/* Carrossel - primeiro */
 
 .position_slider{
     display: flex;
@@ -169,6 +168,8 @@ header nav ul li a:visited{
         height: 400px;
     }
 }
+
+/* Slider Cards - cards de venda */
 
 #btn_card1{
     background-color: #DC6B19
@@ -442,8 +443,6 @@ header nav ul li a:visited{
     background-image:url('./imagens/box_chamada_index/salsinha.png');
 }
 
-/* Ajuda aqui */
-
 #btn_monte_agora{
     text-decoration: none;
     text-transform: uppercase;
@@ -465,6 +464,7 @@ header nav ul li a:visited{
 #btn_monte_agora a:visited{
     color: #6C0345;
 }
+
 
 /* Rodapé */
 footer{
