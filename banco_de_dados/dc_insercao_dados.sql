@@ -5,8 +5,6 @@ insert into cliente (nome, sobrenome, cpf) VALUES
                     ('Ferrugem', 'Oxidado', 12345678911), ('Alcione', 'Marrom', 12345678913),
                     ('Gloria', 'Groove', 12345678914), ('Sorriso', 'Maroto', 12345678915);
                    
-SELECT * FROM cliente;
-                   
 insert into endereco_cliente (fk_cliente, cep, logradouro, bairro, numero) VALUES
                     (1, 2805304, 'Rua das rosas', 'Parque Campos Floridos', 211),
                     (5, 2805305, 'Rua das begônias amarelas', 'Rios claros', 212),
@@ -16,20 +14,14 @@ insert into endereco_cliente (fk_cliente, cep, logradouro, bairro, numero) VALUE
                     (3, 2805309, 'Rua Lírios do Campo', 'Vales verdes', 216),
                     (6, 2805310, 'Rua dos Girassóis', 'Parque flores murchas',	217);
                     
-                    
-                    
 INSERT INTO produto (tipo_produto, nome_produto, estoque, peso) VALUES 
                     ('fruta', 'amora', TRUE, 2.5), ('legume', 'abóbora', TRUE,	3.5),
                     ('verdura',	'couve', TRUE,	4.5), ('tempero', 'orégano', TRUE, 5.5),
-                    ('fruta', 'banana',	TRUE, 6.5), ('fruta', 'laranja', TRUE, 7.5);
-             
-SELECT * FROM produto;          
+                    ('fruta', 'banana',	TRUE, 6.5), ('fruta', 'laranja', TRUE, 7.5);    
              
 INSERT INTO fornecedor (nome_fornecedor, cnpj, fk_produto) VALUES 
                        ('Sérgio', 123456789101, 5), ('Marcelo', 123456789102, 6),
-                       ('José', 123456789103, 2);
-                       
-SELECT * from fornecedor;
+                       ('José', 123456789103, 2);    
   
 Insert INTo endereco_fornecedor (fk_fornecedor, cep, logradouro, bairro) Values
                                 (3, 65478912,'Av.Tomates vermelhos','Plantação verde'),
